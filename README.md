@@ -5,4 +5,9 @@ Anotações, sobre estudo do docker
 `docker version`  
 `docker run nome_da_imagem`, cria um container com a imagem passada por parâmetro  
 `docker ps`lista todos os containers ativos no momento
-`docker ps -a` lista todos os containers
+`docker ps -a` lista todos os containers  
+`docker run -it nome_do_container` atrela o nome do container com o terminal cmd, shell ou Docker Quick Start Terminal  
+`docker stop id_container`para a execução do container  
+`docker start id_container`para executar um container  
+`docker start -a -i`-a para integrar os terminais, -i para interagir com o terminal dentro do container  
+
