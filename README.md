@@ -10,4 +10,9 @@ Anotações, sobre estudo do docker
 `docker stop id_container`para a execução do container  
 `docker start id_container`para executar um container  
 `docker start -a -i`-a para integrar os terminais, -i para interagir com o terminal dentro do container  
+`docker rm id_container`remove o container  
+`docker container prune`remove todos os containers  
+`docker images`lista todas as imagens  
+`docker rmi` remover imagens  
+`docker run -d` roda a imagem sem travar o terminal
 
