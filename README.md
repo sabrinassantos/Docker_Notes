@@ -17,7 +17,9 @@ Anotações, sobre estudo do docker
 `docker rmi` remover imagens  
 `docker run -it nome_do_container` atrela o nome do container com o terminal cmd, shell ou Docker Quick Start Terminal  
 `docker run -d` roda a imagem sem atrelar ao terminal terminal  
-`docker run -d -P` -P o container atribui portas aleatórias para o mundo externo possa falar com o container    
+`docker run -d -P` -P o container atribui portas aleatórias para o mundo externo possa falar com o container  
+`docker run -d -P --name nome_que_estou_dando_para_o_container nome_container ` para dar um nome para o container    
 
 `docker port id_container` para saber as portas q o container está utilizando  
-`docker-machine ip` para saber o ip da máquina virtual, e assim acessar o site, isso para quando estamos usando o docker Toolbox  
+`docker-machine ip` para saber o ip da máquina virtual, e assim acessar o site, isso para quando estamos usando o docker Toolbox    
+`docker run`
